@@ -12,7 +12,7 @@ module.exports = {
                 status: 'online'
             },
             {
-                name: 'EM DESENVOLVIMENTO',
+                name: 'WHITELIST SYSTEM',
                 type: ActivityType.Playing,
                 status: 'online'
             }
