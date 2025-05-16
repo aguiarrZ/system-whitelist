@@ -16,18 +16,16 @@ module.exports = {
 
   async execute(interaction) {
     try {
-      const ruleAdmin = interaction.guild.roles.cache.get('1372773708510265444');
-
-      if (!interaction.member.roles.cache.has(ruleAdmin?.id)) {
-        return interaction.reply({
-          embeds: [
-            new EmbedBuilder()
-              .setColor('Red')
-              .setTitle('**Acesso Negado**')
-              .setDescription(`Você não tem permissão para usar este comando sem o cargo ${ruleAdmin?.name || 'desconhecido'}!`)
-          ],
-          ephemeral: true
-        });
+      if (!interaction.member.permissions.has(PermissionFlagsBits.Administrator)) {
+          return interaction.reply({
+              embeds: [
+                  new EmbedBuilder()
+                      .setColor('Red')
+                      .setTitle('**Acesso Negado**')
+                      .setDescription('❌ Você precisa ter permissão de **Administrador** para usar este comando!')
+              ],
+              ephemeral: true
+          });
       }
 
       const embed = new EmbedBuilder()

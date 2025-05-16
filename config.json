@@ -1,5 +1,5 @@
 {
-  "APPToken": "",
-  "IDClient": "",
-  "IDGuild": ""
+  "APPToken": "TOKEN_DO_BOT",
+  "IDClient": "ID_BOT",
+  "IDGuild": "ID_SERVIDOR"
 }

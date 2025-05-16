@@ -1,9 +1,10 @@
 const { ModalBuilder, TextInputBuilder, TextInputStyle, ActionRowBuilder, EmbedBuilder } = require("discord.js");
 const connection = require("../MySQL/y_connectMySQL.js");
 
-const J_CHANNEL_LOGGER = "1372798123025633381"; // Canal de logs de whitelits
-const J_RULES_ID = "1372798898455707761"; // {#} Cargo que o jogador irá receber após realizar sua whitelist
-const J_RULES_OLD_ID = "1372798951581028445"; // {#} Cargo que será removido do jogador após realizar sua whitelist
+const J_CHANNEL_LOGGER = "COLOQUE_AQUI"; // {#} Canal de logs de whitelits
+const J_RULES_ID = "COLOQUE_AQUI"; // {#} Cargo que o jogador irá receber após realizar sua whitelist
+const J_RULES_OLD_ID = "COLOQUE_AQUI"; // {#} Cargo que será removido do jogador após realizar sua whitelist
+
 const INVALID_CHARS_REGEX = /[.,%#@!?=\-~^<>:;*%$[\]{}\\\/|()'`"&+ ]/;
 
 module.exports = {
