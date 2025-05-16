@@ -60,7 +60,7 @@ npm install discord.js samp-query mysql2 colors
 
 ### 📁 Arquivo `y_connectMySQL.js`
 
-**-** Preencha a informações dentro das aspas do define para fazer a conexão com o MySQL:
+**-** Preencha a informações dentro das aspas simples para fazer a conexão com o MySQL:
 
 ```js
 const connection = mysql.createConnection({
