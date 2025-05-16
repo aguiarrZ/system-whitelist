@@ -1,0 +1,27 @@
+{
+  "name": "nome-do-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/node": "^22.10.2",
+    "axios": "^1.7.9",
+    "body-parser": "^1.20.3",
+    "colors": "^1.4.0",
+    "crypto": "^1.0.1",
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "fs": "^0.0.1-security",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.14.0",
+    "samp-query": "^0.1.5",
+    "tinyurl": "^1.1.7"
+  }
+}
