@@ -2,10 +2,10 @@ const mysql = require('mysql2');
 require('colors');
 
 const connection = mysql.createConnection({
-  host: 'localhost',
-  user: 'root',
-  password: '',
-  database: 'botdb'
+  host: 'localhost',       // {#} Localhost ou o IP do seu servidor MySQL
+  user: 'root',            // {#} Seu usuário do MySQL
+  password: '',             // {#} Senha do MySQL
+  database: 'botdb'        // {#} Nome do banco de dados
 });
 
 connection.connect((err) => {
